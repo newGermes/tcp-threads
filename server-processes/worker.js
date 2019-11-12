@@ -1,14 +1,16 @@
-const net = require("net");
+'use strict';
 
-const port = "3000";
-const hostname = "127.0.0.1";
+const net = require('net');
+
+const port = '3000';
+const hostname = '127.0.0.1';
 
 const server = net.createServer(socket => {
-  socket.on("data", data => {
+  socket.on('data', data => {
     console.log(`Received data from client: ${data}`);
     socket.write(data);
   });
-  socket.on("error", e => {
+  socket.on('error', e => {
     console.log(e);
   });
 

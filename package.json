@@ -1,0 +1,25 @@
+{
+  "name": "tcp-threads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-metarhia": "^7.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "prettier": "^1.19.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newGermes/tcp-threads.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/newGermes/tcp-threads/issues"
+  },
+  "homepage": "https://github.com/newGermes/tcp-threads#readme"
+}
